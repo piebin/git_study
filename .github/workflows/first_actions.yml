@@ -1,0 +1,8 @@
+name: first_actions
+run-name: This is GitHub Actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Hi this is my first actions^^'
