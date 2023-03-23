@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g json
-      - run: json -v
+      - run: json --version
